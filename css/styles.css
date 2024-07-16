@@ -1353,11 +1353,8 @@ body {
 
 @media (max-width: 768px) {
 
-        /* ---------------------------------------------------------------
-                    Elementos comunes (HEADER Y FOOTER)
----------------------------------------------------------------  */
-        
-        /*HEADER*/
+       
+        /*Header*/
     
         .header__principal {
             gap: 40px;
@@ -1433,8 +1430,9 @@ body {
         }
 
 
-        /*FOOTER*/
 
+
+        /*Footer*/
 
         .footer{
 
@@ -1457,6 +1455,7 @@ body {
 
             align-items: center;
         }
+
 
 
         /*Index*/
@@ -1522,7 +1521,7 @@ body {
         .informacion__p{
 
             font-size: 1rem;
-            text-align: center;
+ 
 
         }
     
@@ -1562,12 +1561,13 @@ body {
 
         }
 
-
         .tarjeta {
 
             width: 90%;
 
         }
+
+
 
        /*Catalogo*/
 
@@ -1591,6 +1591,8 @@ body {
         .card__texto{
             font-size: 15px;
         }
+
+
 
        /* Carrito */
 
@@ -1640,8 +1642,9 @@ body {
 
         }
 
-        /* Producto */
 
+
+        /* Producto */
 
         .producto{
             flex-direction: column; 
@@ -1727,7 +1730,6 @@ body {
 
         /*SobreMi*/
 
-
         .conocenos{
             height: auto;
         }
@@ -1753,6 +1755,8 @@ body {
             font-size: 1rem;
             text-align: center;
         }
+
+
 
         /*Pago*/
 
@@ -1781,6 +1785,7 @@ body {
         .pago__boton{
             width: 90%;
         }
+
 
 
         /*Tyc*/
@@ -1964,6 +1969,7 @@ body {
         }
 
         .producto__span{
+
             font-size: 1.75rem; 
         }
 
@@ -1976,6 +1982,7 @@ body {
         }
 
         .producto__button{
+
             width: 45%; 
             padding: 0.75rem; 
         }
@@ -1983,19 +1990,23 @@ body {
         /*Confirmacion*/
 
         .confirmacion__h1{
+
             font-size: 3rem;
         }
     
         .confirmacion__info{
+
             width: 90%;
         }
     
         .confirmacion__p{
+
             width: 70%;
             font-size: 1.5rem;
         }
     
         .confirmacion__texto{
+
             width: 100%;
             flex-direction: row;
             gap: 2rem;
@@ -2023,6 +2034,7 @@ body {
         }
     
         .confirmacion__span{
+
             width: auto;
             font-size: 1.75rem;
             padding: 0.75rem;
@@ -2120,10 +2132,12 @@ body {
         .header__principal{
             gap: 15rem;
         }
+
         .header__img{
             min-width: 300px;
             max-width: 350px;
         }
+
         .header__icon{
             min-width: 70px;
             max-width: 80px;
@@ -2134,11 +2148,14 @@ body {
         /* Presentacion */
 
         .presentacion{
+
             background-position: center;
             background-repeat: no-repeat;
             background-size: contain;
         }
+
         .presentacion__texto{
+
             font-size: 7rem;
             padding: 3.5rem;
         }
@@ -2149,6 +2166,7 @@ body {
         }
         .informacion__p{
             font-size: 1.5rem;
+            text-align: justify;
         }
     
         /* Comentarios */
@@ -2182,10 +2200,12 @@ body {
         .catalogo__h1{
             font-size: 4.5rem;
         }
+
         .catalogo__p{
             width: 70%;
             font-size: 2rem;
         }
+
         .catalogo__content{
             grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
             gap: 2rem;
@@ -2201,15 +2221,19 @@ body {
         .carrito{
             width: 60%;
         }
+
         .carrito__div{
             padding: 3rem;
         }
+
         .carrito__producto{
             font-size: 2.5rem;
         }
+
         .carrito__botones{
             gap: 4rem;
         }
+
         .carrito__finalizar{
             width: 45%;
             padding: 1.5rem;
@@ -2228,9 +2252,11 @@ body {
         .producto{
             width: 80%;
         }
+
         .producto__photo{
             width: 40%;
         }
+
         .producto__content{
             width: 60%;
             gap: 3rem;
@@ -2238,59 +2264,76 @@ body {
         .producto__h1{
             font-size: 3rem;
         }
+
         .producto__span{
             font-size: 2.5rem;
         }
+
         .producto__h3{
             font-size: 2.5rem;
         }
         .producto__ul{
             padding: 2rem;
         }
+
         .producto__button{
             width: 50%;
             padding: 1.5rem;
         }
+
+
+
     
         /* Confirmacion */
 
         .confirmacion__h1{
             font-size: 4rem;
         }
+
         .confirmacion__info{
             width: 80%;
         }
+
         .confirmacion__p{
             width: 60%;
             font-size: 2rem;
         }
+
         .confirmacion__texto{
             gap: 3rem;
         }
+
         .confirmacion__photo{
             width: 25%;
         }
+
         .confirmacion__contenedor{
             width: 70%;
             padding: 2rem;
         }
+
         .confirmacion__producto{
             font-size: 2.5rem;
             padding: 1.5rem;
         }
+
+
         .confirmacion__span{
             font-size: 2.5rem;
             padding: 1rem;
         }
+
         .confirmacion__span--total {
             font-size: 2.5rem;
             padding: 1rem;
         }
+
         .confirmacion__button {
             width: 60%;
             padding: 1.5rem;
         }
     
+
         /* SobreMi */
         .conocenos__h1 {
             font-size: 3.5rem;
@@ -2298,42 +2341,59 @@ body {
         .conocenos__contenido{
             gap: 3rem;
         }
+
         .conocenos__photo{
             width: 50%;
         }
+
         .conocenos__texto{
             width: 40%;
             padding: 300px;
             font-size: 2.5rem;
         }
     
+
+
         /* Pago */
+
         .pago__form {
             width: 60%;
             padding: 2rem;
         }
+
         .pago__h1 {
             font-size: 3.5rem;
         }
+
+
         .pago__div {
             width: 70%;
         }
+
+
         .pago__h3 {
             font-size: 2rem;
         }
+
+
         .pago__boton {
             width: 40%;
             padding: 1.5rem;
         }
     
+
+
         /* TyC */
+
         .tyc__h1 {
             font-size: 3.5rem;
         }
+
         .tyc__caja {
             width: 70%;
             padding: 2rem;
         }
+
         .tyc__button {
             width: 50%;
             padding: 1.5rem;
