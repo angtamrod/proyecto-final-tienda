@@ -26,7 +26,7 @@ body {
     /* VARIABLES DE LA PÁGINA */
 
     /* Esta es la paleta de colores de mi página*/
-    --green-color: #38704c;/*#627956*/
+    --green-color: #38704c;
     --brown-color:#66503d;
     --brown-color-dark: #48392b;
     --golden-color:#bf9e47;
@@ -35,12 +35,6 @@ body {
     --background-color: #f7f4ec;
     --golden-letras: #c99e31;
 
-    /* Variables para tamaño */
-    --card-width: 200px;
-
-    /* Variables para padding y margin */
-
-    
 }
 
 
