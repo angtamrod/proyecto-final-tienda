@@ -20,6 +20,8 @@ const totalComentarios = listaComentarios.length;
 let fotosIndex = 0;
 let comentariosIndex = 0;
 
+
+
 // 2. DECLARAMOS FUNCIONES
 
 menu.addEventListener(`click`, () => {
